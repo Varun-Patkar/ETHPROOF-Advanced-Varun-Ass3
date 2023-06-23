@@ -5,9 +5,9 @@ We have 4 contracts here. The errors as showed by `slither` are showed at the to
 The files are as follow:
 
 1. `StorageVictim0423.sol` - Original Contract File given in the questions.
-2. `StorageVictim0423_new.sol` - Contract modified to remove all errors while maintaining version. Also corrected an error.
+2. `StorageVictim0423_new.sol` - Contract modified to remove all errors while maintaining version. Also corrected a logical error.
 3. `StorageVictim0818.sol` - Contract rewritten in v0.8.18 without changing logic (Without error correction).
-4. `StorageVictim0818_new.sol` - Removed all errors for v0.8.18
+4. `StorageVictim0818_new.sol` - Removed all errors for v0.8.18.
 
 ## Problem Statement
 
