@@ -38,7 +38,9 @@ contract StorageVictim {
 
     function getStore() public view returns (address, uint) {
         Storage memory str = storages[msg.sender]; //define memory or storage for struct variable
-
+        if (str.user == address(0)) {
+            return (msg.sender, 0);
+        }
         return (str.user, str.amount);
     }
 

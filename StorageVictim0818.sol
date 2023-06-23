@@ -41,7 +41,6 @@ contract StorageVictim {
 
     function getStore() public view returns (address, uint) {
         Storage memory str = storages[msg.sender];
-
         return (str.user, str.amount);
     }
 
