@@ -9,6 +9,10 @@ The files are as follow:
 3. `StorageVictim0818.sol` - Contract rewritten in v0.8.18 without changing logic (Without error correction).
 4. `StorageVictim0818_new.sol` - Removed all errors for v0.8.18.
 
+   ## Companion Video
+
+[Loom Companion Video](https://www.loom.com/share/67b80c1b954745bfa46f6784e7850ab6?sid=e5295fb3-c529-4d33-8eb1-5d4a940bfc0f)
+
 ## Problem Statement
 
 With the help of Solidity security tips and tricks, design a minimal smart contract audit report for the following contract:
